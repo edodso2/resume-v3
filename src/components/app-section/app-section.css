@@ -1,0 +1,31 @@
+.section {
+  display: flex;
+  padding: 6rem 0;
+}
+
+.section-title {
+  width: 600px;
+  color: #760731;
+}
+
+h2 {
+  position: relative;
+  font-weight: 300;
+  margin: 0;
+}
+
+h2::after {
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  width: 25px;
+  content: '';
+  border-bottom: 4px solid #E5D0B6;
+}
+
+hr {
+  margin: 0;
+  border-color: var(--secondary-dark);
+  border-style: solid;
+  border-width: .5px;
+}

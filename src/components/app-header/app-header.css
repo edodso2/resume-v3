@@ -1,0 +1,53 @@
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.nav-img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1.5rem;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.nav-link,
+.nav-link:visited {
+  display: block;
+  padding: 2rem 0;
+  color: var(--primary-medium);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link.active {
+
+}

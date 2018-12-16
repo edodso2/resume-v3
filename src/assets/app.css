@@ -1,0 +1,19 @@
+/* GLobal Styles */
+
+:root {
+  --primary-dark: #760731;
+  --primary-medium: #913247;
+  --secondary-dark: #C49C75;
+  --secondary-medium: #D5B998;
+  --scondary-light: #E5D0B6;
+}
+
+* {
+  color: #575757;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+html, body {
+  font-size: 1rem;
+}
