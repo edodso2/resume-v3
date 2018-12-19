@@ -12,28 +12,20 @@ Stencil components are just Web Components, so they work in any major framework 
 
 ## Getting Started
 
-To start building a new web component using Stencil, clone this repo to a new directory:
-
-```bash
-git clone https://github.com/ionic-team/stencil-component-starter.git my-component
-cd my-component
-git remote rm origin
-```
-
-and run:
+To run the project locally:
 
 ```bash
 npm install
 npm start
 ```
 
-To build the component for production, run:
+To build for production:
 
 ```bash
 npm run build
 ```
 
-To run the unit tests for the components, run:
+To run the unit tests:
 
 ```bash
 npm test
