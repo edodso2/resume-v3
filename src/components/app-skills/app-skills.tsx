@@ -117,7 +117,10 @@ export class AppSkills {
 
   /**
    * Sets the position of the fixed div to static if it is
-   * on top of its container.
+   * on top of its container. This is a simple animation to
+   * add some 'flare' it just transitions the opacity as the user scrolls
+   * down and once the skills elem is inside the container it becomes static
+   * and opacity is 1.
    */
   private setSkillsDivPosition(topSkillsConatainerDiv, topSkillsDiv) {
     const containerTop = this.getTopValue(topSkillsConatainerDiv);
