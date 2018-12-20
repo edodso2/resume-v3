@@ -128,6 +128,39 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface AppProjects {
+
+    }
+  }
+
+  interface HTMLAppProjectsElement extends StencilComponents.AppProjects, HTMLStencilElement {}
+
+  var HTMLAppProjectsElement: {
+    prototype: HTMLAppProjectsElement;
+    new (): HTMLAppProjectsElement;
+  };
+  interface HTMLElementTagNameMap {
+    'app-projects': HTMLAppProjectsElement;
+  }
+  interface ElementTagNameMap {
+    'app-projects': HTMLAppProjectsElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-projects': JSXElements.AppProjectsAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppProjectsAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface AppRoot {
 
     }

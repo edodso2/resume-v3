@@ -24,6 +24,7 @@ export class Root {
           <app-container>
             <app-about />
             <app-skills />
+            <app-projects />
           </app-container>
         </main>
       </div>

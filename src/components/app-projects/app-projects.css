@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.project {
+  display: flex;
+}
+
+.project-img {
+  flex: 1 1 30%;
+  max-width: 30%;
+  margin-right: 10%;
+}
+
+.project-img img {
+  width: 100%;
+}
+
+.project-info {
+  flex: 1 1 60%;
+  max-width: 60%;
+}
